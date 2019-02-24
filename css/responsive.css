@@ -872,7 +872,7 @@
     .portfolio-wrap .portfloio-item a {
       height: 100px; }
     .portfolio-wrap .portfloio-item .log a {
-      border: 10px solid transparent; }
+      border: 10px solid rgba(0, 0, 0, 0); }
 
   .why-two {
     padding: 34px 0 0px; }
