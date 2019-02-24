@@ -827,6 +827,66 @@ footer {
 
 .black-list-wrap{
     padding: 60px 0;
+    min-height: 80vh;
+     h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    table{
+        font-weight: 500;
+        thead{
+            td{
+                background-color: #444;
+                color: #fff;
+                padding:10px 5px;
+                border-right: 1px dashed #999;
+            }
+        }
+        tbody{
+            tr{
+                &:hover{
+                    td{
+                        background-color: #fff;
+                    }
+                }
+            }
+            td{
+                padding:7px 5px;
+                border: 1px dashed #ccc;
+                background-color: #f5f5f5;
+                font-size: 13px;
+                a{
+                  color: #EE493E;
+                  &:hover{
+                    color: #000;
+                  }
+                }
+
+            }
+        }
+    }
+    .pagination{
+        li{
+            a{
+                color: #333;
+                font-weight: 500;
+                &:hover{
+                    background-color: #EE493E;
+                border-color: #EE493E;
+                color: #fff;
+                }
+            }
+        }
+        .active{
+            a{
+                background-color: #EE493E;
+                border-color: #EE493E;
+                color: #fff;
+            }
+        }
+    }
 }
 
 
