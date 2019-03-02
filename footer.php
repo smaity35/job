@@ -45,7 +45,7 @@
      <!--  <a href="images/2.jpg" data-fancybox="gallery" style="background-image:url(images/2.jpg);"><img src="images/blpic1.png" alt=""></a>-->
     <script src="js/uikit.min.js"></script>
     <script src="js/custom.js"></script>
-    
+ 
     <script>
 		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		    anchor.addEventListener('click', function (e) {

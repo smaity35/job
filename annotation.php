@@ -7,7 +7,7 @@
            	<div class="col-md-6">
            		<h3>Contents <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
            		<div class="content-box">
-           			<p>Data Engineer</p>
+           			<p >Data Engineer</p>
            			<p>14, New Alipurduar station road, Alipurduar, WB - 736121</p>
            			<p>+91 6478 454644</p>
            			<p>example@test.com</p>
@@ -31,6 +31,8 @@
            			<p>Third Data analytics service india pvt ltd., kolkata India</p>
            			<p>MAY 2019 - Present</p>
            		</div>
+
+              
 
            		<div class="table-responsive">
               <table class="table">
