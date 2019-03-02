@@ -134,11 +134,19 @@ header {
         border-radius: 50%; }
   header .bottom-header {
     background-color: #e8e8e8; }
+    header .bottom-header .main-nav {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      justify-content: space-between; }
     header .bottom-header nav > ul {
       display: -webkit-flex;
       display: flex; }
       header .bottom-header nav > ul > li {
         display: block; }
+        header .bottom-header nav > ul > li.active {
+          background-color: #EE493E;
+          color: #fff; }
         header .bottom-header nav > ul > li a {
           display: block;
           line-height: 44px;
@@ -150,6 +158,38 @@ header {
           header .bottom-header nav > ul > li a:hover {
             background-color: #EE493E;
             color: #fff; }
+    header .bottom-header .nav-btn {
+      display: block;
+      line-height: 44px;
+      padding: 0 15px;
+      text-transform: capitalize;
+      font-size: 13px;
+      background-color: #EE493E;
+      color: #fff;
+      cursor: pointer; }
+      header .bottom-header .nav-btn:hover {
+        background-color: #222; }
+
+.side-menu {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 124px; }
+  .side-menu nav {
+    background-color: #333;
+    width: 70px;
+    height: 100%; }
+    .side-menu nav ul li {
+      border-bottom: 1px solid #444; }
+      .side-menu nav ul li a {
+        color: #fff;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 24px; }
+        .side-menu nav ul li a:hover {
+          background-color: #EE493E; }
 
 .upload-resume {
   padding: 60px 0;
@@ -769,5 +809,48 @@ footer {
       margin: 10px;
       font-weight: 600;
       border-radius: 15px; }
+
+.model-wrap {
+  padding: 60px 0;
+  min-height: 80vh; }
+  .model-wrap h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .model-wrap .json-upload {
+    padding-bottom: 20px; }
+    .model-wrap .json-upload textarea {
+      width: 100%;
+      height: 300px;
+      resize: vertical;
+      border: 1px solid #ccc; }
+  .model-wrap .btn-wrap {
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 30px; }
+    .model-wrap .btn-wrap button {
+      padding: 0 20px;
+      line-height: 36px;
+      background-color: #888;
+      border-radius: 3px;
+      color: #fff;
+      margin-right: 15px; }
+      .model-wrap .btn-wrap button:hover {
+        background-color: #EE493E; }
+  .model-wrap .commend-wrap {
+    background-color: #333;
+    border: 15px solid #333;
+    margin-top: 30px;
+    height: 300px;
+    overflow-y: scroll; }
+    .model-wrap .commend-wrap table {
+      width: 100%; }
+      .model-wrap .commend-wrap table tr td {
+        color: #fff;
+        padding: 5px 10px;
+        vertical-align: top;
+        font-size: 12px; }
+        .model-wrap .commend-wrap table tr td:first-child {
+          width: 70px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,27 +2,22 @@
 $page=basename($_SERVER['PHP_SELF']);
 $select1=$select2=$select3=$select4=$select5=$select6=$select7=$select8=$select9=null;
 
-if($page=="index.php"){
+if($page=="black-list.php"){
     $select1=' class="active"';
 }
-if($page=="about.php"){
+if($page==""){
     $select2=' class="active"';
 }
-if($page=="service.php"){
+if($page=="upload-resume.php"){
     $select3=' class="active"';
 }
-if($page=="portfolio.php"){
+if($page=="annotation.php"){
     $select4=' class="active"';
 }
-if($page=="blog.php"){
+if($page=="update-model.php"){
     $select5=' class="active"';
 }
-if($page=="career.php"){
-    $select6=' class="active"';
-}
-if($page=="contact.php"){
-    $select7=' class="active"';
-}
+
 
 ?>
 
@@ -115,15 +110,28 @@ if($page=="contact.php"){
                             <div class="col-md-12 main-nav">
                                 <nav>
                                     <ul>
-                                        <li><a href="black-list.php">Black list employee</a></li>
-                                        <li><a href="#">Black list candidate</a></li>
-                                        <li><a href="upload-resume.php">Parse resume</a></li>
-                                        <li><a href="annotation.php">Annotation</a></li>
-                                        <li><a href="#">Update model</a></li>                       
+                                        <li <?php echo $select1;?>><a href="black-list.php">Black list employee</a></li>
+                                        <li <?php echo $select2;?>><a href="#">Black list candidate</a></li>
+                                        <li <?php echo $select3;?>><a href="upload-resume.php">Parse resume</a></li>
+                                        <li <?php echo $select4;?>><a href="annotation.php">Annotation</a></li>
+                                        <li <?php echo $select5;?>><a href="update-model.php">Update model</a></li>
                                     </ul>
                                 </nav>
+
+                                <!-- <div class="nav-btn"><i class="fa fa-bars" aria-hidden="true"></i></div> -->
                             </div>
                         </div>
                     </div>
                 </section>
         </header>
+
+
+
+        <div class="side-menu">
+            <nav>
+                <ul>
+                    <li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-gift" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+        </div>
