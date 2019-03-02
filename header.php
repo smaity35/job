@@ -118,7 +118,7 @@ if($page=="contact.php"){
                                         <li><a href="black-list.php">Black list employee</a></li>
                                         <li><a href="#">Black list candidate</a></li>
                                         <li><a href="upload-resume.php">Parse resume</a></li>
-                                        <li><a href="#">Annotation</a></li>
+                                        <li><a href="annotation.php">Annotation</a></li>
                                         <li><a href="#">Update model</a></li>                       
                                     </ul>
                                 </nav>

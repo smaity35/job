@@ -695,4 +695,79 @@ footer {
     border-color: #EE493E;
     color: #fff; }
 
+.annotation-wrap {
+  padding: 60px 0;
+  min-height: 80vh; }
+  .annotation-wrap h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .annotation-wrap .content-box {
+    border: 1px dashed #999;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow-y: scroll; }
+    .annotation-wrap .content-box p {
+      font-weight: 500;
+      opacity: 0.8;
+      margin-bottom: 20px; }
+  .annotation-wrap table {
+    font-weight: 500; }
+    .annotation-wrap table tr td:first-child {
+      pointer-events: none; }
+    .annotation-wrap table thead td {
+      background-color: #444;
+      color: #fff;
+      padding: 10px 10px;
+      border-right: 1px dashed #999; }
+    .annotation-wrap table tbody tr:hover td {
+      background-color: #fff; }
+    .annotation-wrap table tbody td {
+      padding: 7px 10px;
+      border: 1px dashed #bbb;
+      background-color: #f5f5f5;
+      font-size: 13px; }
+      .annotation-wrap table tbody td a {
+        color: #EE493E; }
+        .annotation-wrap table tbody td a:hover {
+          color: #000; }
+  .annotation-wrap .json-box {
+    border: 1px dashed #999;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow-y: scroll; }
+    .annotation-wrap .json-box p {
+      font-weight: 500;
+      opacity: 0.8;
+      margin-bottom: 20px; }
+  .annotation-wrap .btn-box {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .annotation-wrap .btn-box button {
+      padding: 0 20px;
+      line-height: 36px;
+      background-color: #888;
+      border-radius: 3px;
+      color: #fff; }
+      .annotation-wrap .btn-box button:hover {
+        background-color: #EE493E; }
+  .annotation-wrap .key-tags {
+    background-color: #f5f5f5;
+    padding: 15px;
+    box-shadow: 0px 0px 10px #bbb;
+    border: 1px solid #fff; }
+    .annotation-wrap .key-tags li {
+      display: inline-block;
+      border: 1px dashed #333;
+      padding: 0 20px;
+      line-height: 30px;
+      margin: 10px;
+      font-weight: 600;
+      border-radius: 15px; }
+
 /*# sourceMappingURL=style.css.map */
