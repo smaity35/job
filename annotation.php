@@ -2,6 +2,17 @@
 
     <section class="annotation-wrap">
         <div class="container">
+          <div class="row file-upload">
+                    <div class="col-md-8 ">
+                        <label>
+                            <input required="" type="file" name="">
+                            <span>chose file</span>
+                        </label>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="my-btn">upload</button>
+                    </div>
+          </div>
            
            <div class="row">
            	<div class="col-md-6">
@@ -91,6 +102,39 @@
            </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pop-tags">
+  <ul>
+    <li><a href="">Name</a></li>
+    <li><a href="">Bobby</a></li>
+    <li><a href="">Year Of Exprience</a></li>
+    <li><a href="">Adderess</a></li>
+    <li><a href="">Email Adderess</a></li>
+    <li><a href="">Phone Number</a></li>
+    <li><a href="">Skills</a></li>
+    <li><a href="">Collage</a></li>
+    <li><a href="">Degree</a></li>
+    <li><a href="">Project</a></li>
+    <li><a href="">Certification</a></li>
+    <li><a href="">Year Of Exprience</a></li>
+    <li><a href="">Adderess</a></li>
+    <li><a href="">Email Adderess</a></li>
+    <li><a href="">Phone Number</a></li>
+    <li><a href="">Skills</a></li>
+  </ul>
+</div>
 
 <?php include('footer.php');?>
 
